@@ -1,4 +1,3 @@
-
 library(plumbr)
 library(maps)
 library(ggplot2)
@@ -35,7 +34,7 @@ if (!exists("qzs")) {
 
 #PSRC HH survey data, available at http://www.surveyarchive.org/
 hs <- read.csv("households.csv.bz2")
-qhs <- qdata(hh)
+qhs <- qdata(hs)
 ps <- read.csv("persons.csv.bz2")
 qps <- qdata(ps)
 ts <- read.csv("trips.csv.bz2")
